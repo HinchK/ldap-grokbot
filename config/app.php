@@ -1,5 +1,7 @@
 <?php
 
+use Barryvdh\Debugbar\Facade;
+
 return [
 
     /*
@@ -13,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Grokbot'),
 
     /*
     |--------------------------------------------------------------------------

@@ -12,8 +12,8 @@ yarn-error.log
 yarn.lock
 aliases
 .vagrant/
-public/packages/barryvdh/elfinder/js/
-.phpstorm.meta.php
 after.sh
 .idea/
 .editorconfig
+public/packages/
+_TODO/
