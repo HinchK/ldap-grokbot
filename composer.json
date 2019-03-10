@@ -29,7 +29,8 @@
         "laravel/homestead": "^8.1",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "phpunit/phpunit": "^7.0",
+        "spatie/laravel-web-tinker": "^1.2"
     },
     "config": {
         "optimize-autoloader": true,
@@ -70,6 +71,7 @@
         ],
 	"post-update-cmd": [
         "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+        "php artisan elfinder:publish",
         "php artisan ide-helper:generate",
         "php artisan ide-helper:meta"
 	]
