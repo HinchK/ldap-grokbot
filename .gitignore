@@ -20,3 +20,4 @@ after.sh
 public/packages/
 _TODO/
 data/*
+.phpstorm.meta.php
