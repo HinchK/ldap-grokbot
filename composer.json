@@ -13,10 +13,13 @@
         "barryvdh/elfinder-flysystem-driver": "^0.2.1",
         "barryvdh/laravel-elfinder": "^0.4.1",
         "fideloper/proxy": "^4.0",
+        "infyomlabs/adminlte-templates": "dev-master",
+        "infyomlabs/laravel-generator": "dev-master",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
         "league/climate": "^3.5",
-        "nwidart/laravel-modules": "^4.0",
+        "spatie/dns": "^1.4",
+        "spatie/laravel-activitylog": "^3.2",
         "spatie/laravel-backup": "^5.12"
     },
     "require-dev": {
@@ -30,7 +33,10 @@
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0",
-        "spatie/laravel-web-tinker": "^1.2"
+        "spatie/laravel-tail": "^3.2",
+        "spatie/laravel-web-tinker": "^1.2",
+        "summerblue/generator": "^1.0",
+        "xethron/migrations-generator": "^2.0"
     },
     "config": {
         "optimize-autoloader": true,

@@ -180,7 +180,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-    ],
+        /*
+         *  development         _dot_dot_dot_
+         */
+        Summerblue\Generator\GeneratorsServiceProvider::class,
+
+],
 
     /*
     |--------------------------------------------------------------------------

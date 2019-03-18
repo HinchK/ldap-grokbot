@@ -16,3 +16,12 @@ Route::get('login', function () {
     return view('welcome');
 
 });
+
+
+Route::get('/', function () {
+
+    return view('Barryvdh\Elfinder\ElfinderController@showIndex');
+
+});
+
+Route::resource('ldap_syncs', 'LdapSyncsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
