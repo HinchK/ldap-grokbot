@@ -20,7 +20,7 @@ Route::get('login', function () {
 
 Route::get('/', function () {
 
-    return view('Barryvdh\Elfinder\ElfinderController@showIndex');
+    return view('vendor.elfinder.standalonepopup');
 
 });
 
