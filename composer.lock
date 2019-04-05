@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61127d38702ccb2c4bd5cb53b95929d0",
+    "content-hash": "bde20f696a4583bcd9e955019e4f3139",
     "packages": [
         {
             "name": "adldap2/adldap2",
@@ -4600,6 +4600,50 @@
     ],
     "packages-dev": [
         {
+            "name": "adamwathan/laravel-preset",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adamwathan/laravel-preset.git",
+                "reference": "5848456a4eed24b0ff0f2205c60f248ed6ccb4ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adamwathan/laravel-preset/zipball/5848456a4eed24b0ff0f2205c60f248ed6ccb4ae",
+                "reference": "5848456a4eed24b0ff0f2205c60f248ed6ccb4ae",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "NothingWorks\\LaravelPreset\\PresetServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "NothingWorks\\LaravelPreset\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Adam Wathan's Laravel Frontend Preset",
+            "keywords": [
+                "laravel",
+                "preset"
+            ],
+            "support": {
+                "source": "https://github.com/adamwathan/laravel-preset/tree/master",
+                "issues": "https://github.com/adamwathan/laravel-preset/issues"
+            },
+            "time": "2018-09-10T15:02:59+00:00"
+        },
+        {
             "name": "barryvdh/laravel-debugbar",
             "version": "v3.2.3",
             "source": {
@@ -7851,7 +7895,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "infyomlabs/adminlte-templates": 20,
-        "infyomlabs/laravel-generator": 20
+        "infyomlabs/laravel-generator": 20,
+        "adamwathan/laravel-preset": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
