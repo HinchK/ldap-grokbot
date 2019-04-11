@@ -25,3 +25,8 @@ Route::get('/', function () {
 });
 
 Route::resource('ldap_syncs', 'LdapSyncsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
